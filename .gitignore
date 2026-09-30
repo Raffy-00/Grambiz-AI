@@ -1,0 +1,52 @@
+# ==========================================================
+# GramBiz AI — Git Ignore Rules
+# ==========================================================
+
+# Environment & Secret Configurations
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.key
+*.crt
+
+# Node Dependencies & Build Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+frontend/.vercel/
+
+# Python Runtime & Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+backend/.pytest_cache/
+.coverage
+htmlcov/
+
+# Local SQLite Databases
+*.db
+*.sqlite3
+
+# Cloud Deployments (Vercel)
+.vercel/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary Scratch Scripts
+scratch/
+
+.vercel

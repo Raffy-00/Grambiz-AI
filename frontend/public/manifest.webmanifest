@@ -1,0 +1,26 @@
+{
+  "name": "GramBiz AI — Enterprise Advisory App",
+  "short_name": "GramBiz AI",
+  "description": "Hyper-Local Business Feasibility & Financial Advisory Application for Rural Entrepreneurs",
+  "start_url": "/",
+  "id": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "orientation": "portrait",
+  "background_color": "#F8F9F6",
+  "theme_color": "#0D4734",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/vite.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
